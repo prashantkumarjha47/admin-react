@@ -1,0 +1,32 @@
+.upper-layer {
+  min-height: 30vh;
+  background: #000;
+  color: #fff;
+  font-family: "ArizonArial", Helvetica, sans-serifia;
+  font-size: 42px;
+  .logo {
+    position: fixed;
+    margin: auto;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: inline-block;
+  }
+}
+.login-page {
+  width: 500px;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  bottom: 100vh-50;
+  left: 0;
+  right: 0;
+  height: 110px;
+  margin: auto;
+  .ant-card {
+    box-shadow: 0 0 6px rgba(27, 27, 27, 0.65);
+    zoom: 1.3;
+  }
+}
